@@ -7,7 +7,7 @@
 * Развертывание на Docker (мин. треб: 2 Гб, 1 core)
 * Реализован на Java (JDK11) / Python3.6
 
-Цель backend: хранение данных и обработка запросов от frontend.
+Цель backend: хранение данных и обработка запросов от frontend, который находится [ТУТ](https://github.com/kirillnepomiluev/rosseti).
 
 ---
 Для запуска ввести команду `docker-compose up`. Для подключения - внешний `ip-addres` и `8080` порт.
@@ -75,6 +75,8 @@
 ### Telegram BOT
 
 Телеграм бот на Python - [WerWebWer/db_1devfull_ROSSETI_bot](https://github.com/WerWebWer/db_1devfull_ROSSETI_bot).
+
+Его можно найти в Telegram по @rosseti_ri_bot
 
 Решение - чат бот, позволяющий пользователю, ответив на вопросы сформировать идею, а так же помочь с офромлением документов.  
 
