@@ -4,7 +4,7 @@
 ## Решение от команды 1DevFull
 
 
-* Развертывание на Docker (мин. треб: 2 Гб, 1 core)
+* Развертывание на Docker (мин. треб: 1 core, 2 ГБ)
 * Реализован на Java (JDK11) / Python3.6
 
 Цель backend: хранение данных и обработка запросов от frontend, который находится [ТУТ](https://github.com/kirillnepomiluev/rosseti).
@@ -34,15 +34,15 @@
 
 ### Что тут есть
 
-[Семантический поиск](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/readme.md "Семантический поиск")
+[Семантический поиск](https://github.com/WerWebWer/db_1devfull_ROSSETI_back#%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA)
 
-[Telegram BOT](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/readme.md  "Telegram BOT")
+[Telegram BOT](https://github.com/WerWebWer/db_1devfull_ROSSETI_back#telegram-bot)
 
-[Пример семантического поиска](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/readme.md  "Пример семантического поиска")
+[Пример семантического поиска](https://github.com/WerWebWer/db_1devfull_ROSSETI_back#%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0)
 
 ### Семантический поиск
 
-![](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/images/1.jpg)
+![](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/blob/master/images/1.png)
 
 Наш семантический поиск на Python - [WerWebWer/db_1devfull_ROSSETI_semantic_search](https://github.com/WerWebWer/db_1devfull_ROSSETI_semantic_search).
 
@@ -122,8 +122,11 @@ def callback_inline(call):
 Ном.док-- 8 Текст-Graph minors: A survey
 
 ##### Слова, которые встречаться только один раз:
+
     ['opinion', 'binari', 'in', 'engin', 'iv', 'width', 'order', 'test', 'error', 'intersect', 'abc', 'perceiv', 'path', 'generat', 'relat', 'to', 'measur', 'machin', 'manag', 'for', 'random', 'applic']
-    Стоп-слова:
+    
+##### Стоп-слова:
+
     ['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your', 'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herself', 'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which', 'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', 'should', 'now']
 
 ##### Cлова(основа):
@@ -338,8 +341,8 @@ user {[ 0.999996 0.999933 0.111252 0.999929 0.999931 0.239888 0.999963
 ##### Расположение в семантическом пространстве слов и документов
 
 
-![](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/images/2.jpg)
+![](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/blob/master/images/2.JPG)
 
 
-![](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/images/3.jpg)
+![](https://github.com/WerWebWer/db_1devfull_ROSSETI_back/blob/master/images/3.JPG)
 
